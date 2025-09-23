@@ -857,7 +857,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 55.88 113.03 0)
 			(effects
 				(font
@@ -1126,7 +1126,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 35.56 110.49 0)
 			(effects
 				(font
@@ -1196,7 +1196,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "IXCP10M90S:IXCP10M90S"
 			(at 39.37 100.33 0)
 			(effects
 				(font
@@ -1267,7 +1267,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 74.93 94.488 90)
 			(effects
 				(font

@@ -1196,7 +1196,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "IXCP10M90S:IXCP10M90S"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
 			(at 39.37 100.33 0)
 			(effects
 				(font

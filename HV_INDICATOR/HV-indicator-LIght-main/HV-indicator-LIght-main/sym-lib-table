@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "HV_INDICATORSYMB")(type "KiCad")(uri "${KIPRJMOD}/HV_INDICATORSYMB.kicad_sym")(options "")(descr ""))
+)

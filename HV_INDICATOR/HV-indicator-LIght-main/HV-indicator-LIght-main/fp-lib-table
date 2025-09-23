@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "HV_INDICATOR")(type "KiCad")(uri "${KIPRJMOD}/HV_INDICATOR.pretty")(options "")(descr ""))
+)

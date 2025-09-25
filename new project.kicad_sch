@@ -1259,7 +1259,7 @@
 				)
 			)
 		)
-		(property "Value" "1800"
+		(property "Value" "18000"
 			(at 74.93 88.9 90)
 			(effects
 				(font

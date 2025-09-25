@@ -284,7 +284,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "R1"
-			(at 15.26284 -1.50286 0)
+			(at 3.91444 1.06426 0)
 			(layer "F.SilkS")
 			(uuid "9e256a5d-6b7c-402d-9689-dfbaf7c3cd79")
 			(effects

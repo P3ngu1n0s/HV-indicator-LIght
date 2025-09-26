@@ -188,7 +188,7 @@
 		(descr "TO-252/DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/")
 		(tags "DPAK TO-252 DPAK-3 TO-252-3 SOT-428")
 		(property "Reference" "U2"
-			(at 6.3287 -3.91314 0)
+			(at 6.56238 -3.90552 0)
 			(layer "F.SilkS")
 			(uuid "bf58def6-5a7b-4024-b133-03bb72e17e90")
 			(effects

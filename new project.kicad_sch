@@ -292,6 +292,155 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:Z3SMCxxx"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Z3SMCxxx"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMC"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/z3smc1.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "3000mW Zener Diode, SMC(DO-214AB)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "zener diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D?SMC*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Z3SMCxxx_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Z3SMCxxx_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "IXCP10M90S:IXCP10M90S"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -614,125 +763,165 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Unsure what specfic diode to use"
+		(exclude_from_sim no)
+		(at 130.81 88.138 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3eaa69c5-8d88-44e1-a4d8-777825cd4ea9")
+	)
 	(junction
-		(at 48.26 167.64)
+		(at 92.71 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "151e0ba6-6c73-4551-bc0f-6499faaac990")
+		(uuid "0eb6a883-4a79-4d61-aa8f-5c854a43dfec")
 	)
 	(wire
 		(pts
-			(xy 40.64 138.43) (xy 66.04 138.43)
+			(xy 82.55 129.54) (xy 92.71 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "016d7e58-3a7c-484d-b88b-0555d5196782")
+		(uuid "08185a9a-1d73-4d57-adc1-4ee9fab23437")
 	)
 	(wire
 		(pts
-			(xy 36.83 142.24) (xy 36.83 167.64)
+			(xy 123.19 99.06) (xy 140.97 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "47583339-ffa5-4f59-bd38-1221192b66b9")
+		(uuid "1398ce24-da40-4418-807f-73686a5eda86")
 	)
 	(wire
 		(pts
-			(xy 40.64 138.43) (xy 40.64 144.78)
+			(xy 80.01 91.44) (xy 86.36 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5445b613-3e94-4807-a5bb-a7478f498ce7")
+		(uuid "1534d227-1d49-4038-949c-8928684cf022")
 	)
 	(wire
 		(pts
-			(xy 48.26 167.64) (xy 67.31 167.64)
+			(xy 140.97 101.6) (xy 140.97 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "613942f7-c91c-4990-9cd3-198bf9df97e7")
+		(uuid "29675352-9af2-4940-95f0-71eb71074eef")
 	)
 	(wire
 		(pts
-			(xy 66.04 165.1) (xy 67.31 165.1)
+			(xy 82.55 106.68) (xy 82.55 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "78137c5c-b7c2-42a8-88bc-5994c716e50a")
+		(uuid "2f9b6bfb-7b22-4740-9ede-4e3b323750b5")
 	)
 	(wire
 		(pts
-			(xy 36.83 167.64) (xy 48.26 167.64)
+			(xy 93.98 106.68) (xy 82.55 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8db4f3c1-553f-4543-bbcd-5578731b96a2")
+		(uuid "43c8f66d-b20c-4689-a572-89ef01bb9ea9")
 	)
 	(wire
 		(pts
-			(xy 48.26 147.32) (xy 48.26 156.21)
+			(xy 86.36 99.06) (xy 115.57 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8f5abf3b-0289-4d00-9532-34de12d7de61")
+		(uuid "5443e0e2-b605-496c-9d97-ae3b2fd52858")
 	)
 	(wire
 		(pts
-			(xy 36.83 142.24) (xy 48.26 142.24)
+			(xy 140.97 129.54) (xy 92.71 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9bc52723-523e-4ea1-866e-1dd8d29fc493")
+		(uuid "5d7bf936-4356-4f8e-9c3a-41be272df46f")
 	)
 	(wire
 		(pts
-			(xy 48.26 163.83) (xy 48.26 167.64)
+			(xy 80.01 109.22) (xy 80.01 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c37d56ef-c9d8-457a-8e26-349bf95e7d03")
+		(uuid "6be1fbcc-8d1e-4586-ab6e-63a9f3bceeae")
 	)
 	(wire
 		(pts
-			(xy 48.26 144.78) (xy 40.64 144.78)
+			(xy 86.36 93.98) (xy 86.36 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f13f9128-6557-4c33-a01b-7ee1e5f7123d")
+		(uuid "6bfd29d8-5200-4468-83d0-585328ecab59")
 	)
 	(wire
 		(pts
-			(xy 66.04 140.97) (xy 66.04 165.1)
+			(xy 92.71 128.27) (xy 92.71 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f145f2d9-3bed-46dd-b915-1b3a00f52ad0")
+		(uuid "8ebd2d91-ad7d-4b80-a70a-1f57d38cfab4")
+	)
+	(wire
+		(pts
+			(xy 92.71 111.76) (xy 92.71 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f5a2732-8a80-4259-83e4-8d54079299e3")
+	)
+	(wire
+		(pts
+			(xy 93.98 109.22) (xy 80.01 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac672e65-47d3-4ee7-9762-7f6b5ee6d227")
+	)
+	(wire
+		(pts
+			(xy 93.98 111.76) (xy 92.71 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f73fb717-445b-416f-8412-de6b4a4f5f51")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 83.82 162.56 0)
+		(at 166.37 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -741,7 +930,7 @@
 		(fields_autoplaced yes)
 		(uuid "0dc5c71b-141f-4c4d-8ed2-e09f11179de0")
 		(property "Reference" "H2"
-			(at 86.36 161.2899 0)
+			(at 168.91 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -750,7 +939,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 86.36 163.8299 0)
+			(at 168.91 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -759,7 +948,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.1mm"
-			(at 83.82 162.56 0)
+			(at 166.37 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -768,7 +957,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 162.56 0)
+			(at 166.37 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -777,7 +966,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 83.82 162.56 0)
+			(at 166.37 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -795,44 +984,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 48.26 160.02 180)
+		(lib_id "Diode:Z3SMCxxx")
+		(at 119.38 99.06 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8bca92c3-5fa3-46a6-a6c2-ece23c8177a5")
-		(property "Reference" "R2"
-			(at 50.8 158.7499 0)
+		(uuid "29423483-2e56-4e9a-8d0f-46041657070c")
+		(property "Reference" "D1"
+			(at 119.38 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "18000"
-			(at 50.8 161.2899 0)
+		(property "Value" "Z3SMCxxx"
+			(at 119.38 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 50.038 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.26 160.02 0)
+		(property "Footprint" "Diode_SMD:D_SMC"
+			(at 119.38 94.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -840,8 +1018,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 48.26 160.02 0)
+		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/z3smc1.pdf"
+			(at 119.38 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3000mW Zener Diode, SMC(DO-214AB)"
+			(at 119.38 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -850,15 +1037,88 @@
 			)
 		)
 		(pin "1"
-			(uuid "54f6f023-2bfa-4d27-a6a6-9fab736a6e3a")
+			(uuid "1492b273-0b3d-438b-849b-cc3b79c2a3d3")
 		)
 		(pin "2"
-			(uuid "395c999e-f8ad-4d46-ac17-5e6766e31cda")
+			(uuid "4d530015-2f50-4831-a9b0-934bc6143345")
+		)
+		(instances
+			(project ""
+				(path "/077e92cf-3ae1-46e9-bd7c-3f2e84892e92"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IXCP10M90S:IXCP10M90S")
+		(at 93.98 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "440b2415-714b-494c-8785-04176ffb8cea")
+		(property "Reference" "U1"
+			(at 106.68 108.5849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 106.68 111.1249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+			(at 93.98 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.discordapp.com/attachments/1408313445073424384/1412639720609157202/image.png?ex=68c2ea02&is=68c19882&hm=00e835de8b5881e37c218f0f823475d6e63430bfb3ab5b3b2abf3995d780bc38&"
+			(at 93.726 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "used for HV indicator"
+			(at 94.996 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "80ecc934-7ca8-44e0-8695-956b69717270")
+		)
+		(pin "3"
+			(uuid "2896d8d8-fb39-4486-86e8-65e1d99f8845")
+		)
+		(pin "1"
+			(uuid "2b55722a-5257-42b8-b3f3-2e67432c1985")
 		)
 		(instances
 			(project "new project"
 				(path "/077e92cf-3ae1-46e9-bd7c-3f2e84892e92"
-					(reference "R2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -866,15 +1126,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 72.39 167.64 180)
+		(at 146.05 101.6 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8cc73161-6639-4a56-8e56-55c9b80ec636")
-		(property "Reference" "J3"
-			(at 71.755 172.72 0)
+		(uuid "6006db36-11bf-48b6-b327-8ebeffb208f9")
+		(property "Reference" "J2"
+			(at 145.415 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -882,7 +1142,7 @@
 			)
 		)
 		(property "Value" "Tractive Battery"
-			(at 71.755 170.18 0)
+			(at 145.415 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -890,7 +1150,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
-			(at 72.39 167.64 0)
+			(at 146.05 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -899,7 +1159,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 167.64 0)
+			(at 146.05 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -908,7 +1168,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 72.39 167.64 0)
+			(at 146.05 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -917,84 +1177,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "47625bfc-ebaa-4f4c-a86e-2d3794fbc714")
+			(uuid "18088fc3-9c94-47a3-bb50-9e135d2dbf02")
 		)
 		(pin "2"
-			(uuid "2225490d-4910-44e1-adfe-5bcb1062a2a7")
+			(uuid "0a2e5151-e0ad-45d9-9317-5940a583c8e1")
 		)
 		(instances
 			(project "new project"
 				(path "/077e92cf-3ae1-46e9-bd7c-3f2e84892e92"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 71.12 140.97 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "976d0e99-fe5f-487b-8fb1-999f3dd4d100")
-		(property "Reference" "J4"
-			(at 72.39 138.4299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED 0.170amps"
-			(at 72.39 140.9699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
-			(at 71.12 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 71.12 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f26d89d1-4379-4bf6-9da5-c1aa19cd60d8")
-		)
-		(pin "1"
-			(uuid "49a9ef6b-073e-4a19-80de-b95859eecc0d")
-		)
-		(instances
-			(project "new project"
-				(path "/077e92cf-3ae1-46e9-bd7c-3f2e84892e92"
-					(reference "J4")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -1002,15 +1193,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 48.26 167.64 0)
+		(at 92.71 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9cc5ab77-5e26-4010-8f24-fe98755bdcb5")
-		(property "Reference" "#PWR05"
-			(at 48.26 173.99 0)
+		(uuid "8ac7a2cb-ed0a-4101-8fa5-9f8f15ea40fc")
+		(property "Reference" "#PWR01"
+			(at 92.71 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1019,7 +1210,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 48.2601 171.45 90)
+			(at 92.7101 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1028,7 +1219,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 167.64 0)
+			(at 92.71 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1037,7 +1228,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 167.64 0)
+			(at 92.71 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1046,7 +1237,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 48.26 167.64 0)
+			(at 92.71 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1055,47 +1246,47 @@
 			)
 		)
 		(pin "1"
-			(uuid "e283d0d5-e48f-46a7-9ae0-f864d0104c55")
+			(uuid "2ab31b3c-7ddd-4e77-8bc7-bbe1292119f4")
 		)
 		(instances
 			(project "new project"
 				(path "/077e92cf-3ae1-46e9-bd7c-3f2e84892e92"
-					(reference "#PWR05")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 76.2 152.4 0)
+		(lib_id "Device:R")
+		(at 92.71 124.46 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cc3a75e2-2aa3-4064-87bb-124bba099a20")
-		(property "Reference" "H1"
-			(at 78.74 151.1299 0)
+		(uuid "8bfbd99b-fd35-4f47-8b4f-4003fc5e7ed2")
+		(property "Reference" "R1"
+			(at 95.25 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 78.74 153.6699 0)
+		(property "Value" "18000"
+			(at 95.25 125.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.1mm"
-			(at 76.2 152.4 0)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 94.488 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1104,7 +1295,146 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 152.4 0)
+			(at 92.71 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 92.71 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2853a221-9931-405c-9fdf-279867e5a09e")
+		)
+		(pin "2"
+			(uuid "301b06fa-aee6-4594-bef4-63441e868e7f")
+		)
+		(instances
+			(project "new project"
+				(path "/077e92cf-3ae1-46e9-bd7c-3f2e84892e92"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 91.44 93.98 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9bf8e0eb-255a-4c05-9b26-d3f9ef075c8f")
+		(property "Reference" "J1"
+			(at 92.71 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED 0.170amps"
+			(at 92.71 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
+			(at 91.44 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 91.44 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9ec6a287-2e31-4b4e-a1aa-92abb4b9fb1e")
+		)
+		(pin "1"
+			(uuid "f2999c5b-8495-4eae-a2b5-c422c26c8f8b")
+		)
+		(instances
+			(project "new project"
+				(path "/077e92cf-3ae1-46e9-bd7c-3f2e84892e92"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 158.75 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc3a75e2-2aa3-4064-87bb-124bba099a20")
+		(property "Reference" "H1"
+			(at 161.29 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 161.29 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 158.75 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1113,7 +1443,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 76.2 152.4 0)
+			(at 158.75 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1125,79 +1455,6 @@
 			(project ""
 				(path "/077e92cf-3ae1-46e9-bd7c-3f2e84892e92"
 					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "IXCP10M90S:IXCP10M90S")
-		(at 48.26 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d71037e2-1209-4b75-ae32-ccc8de8e3b70")
-		(property "Reference" "U2"
-			(at 60.96 144.1449 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 60.96 146.6849 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
-			(at 48.26 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn.discordapp.com/attachments/1408313445073424384/1412639720609157202/image.png?ex=68c2ea02&is=68c19882&hm=00e835de8b5881e37c218f0f823475d6e63430bfb3ab5b3b2abf3995d780bc38&"
-			(at 48.006 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "used for HV indicator"
-			(at 49.276 149.606 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "319285b4-a683-4137-b56a-7e539de219dd")
-		)
-		(pin "3"
-			(uuid "10c980b6-6465-4efd-92c9-9f75aee40994")
-		)
-		(pin "1"
-			(uuid "683fb52b-10d9-4333-ab74-e07fcba47466")
-		)
-		(instances
-			(project "new project"
-				(path "/077e92cf-3ae1-46e9-bd7c-3f2e84892e92"
-					(reference "U2")
 					(unit 1)
 				)
 			)

@@ -100,8 +100,8 @@
 				)
 			)
 		)
-		(property "Value" "18000"
-			(at 5.08 2.37 0)
+		(property "Value" "36000"
+			(at -4.40436 -1.24968 0)
 			(layer "F.Fab")
 			(uuid "f6d87407-8197-4f5d-af43-b3c45285aadc")
 			(effects
@@ -775,7 +775,7 @@
 		(property "Reference" "U1"
 			(at 0 -4.5 0)
 			(layer "F.SilkS")
-			(uuid "a23be5b7-b082-41e5-aeb5-fa09033014ea")
+			(uuid "4761399d-9cb8-4074-9716-1ed06c564801")
 			(effects
 				(font
 					(size 1 1)
@@ -786,7 +786,7 @@
 		(property "Value" "~"
 			(at 0 4.5 0)
 			(layer "F.Fab")
-			(uuid "83730da1-ba29-4e24-ab4a-16e6e0517bff")
+			(uuid "ff8f0d7d-8eeb-44e8-ace4-475dbc108ee2")
 			(effects
 				(font
 					(size 1 1)
@@ -798,7 +798,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "96378075-dd29-4816-aaf2-c8062fb90baa")
+			(uuid "1654f085-b996-46b4-af8b-75140e6df72c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -810,7 +810,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "34fb5080-9e6c-4e8e-976d-aa39a14cddf7")
+			(uuid "8125f943-b467-46ec-88a2-318efbaa2d2e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1076,9 +1076,9 @@
 		(descr "Diode SMC (DO-214AB)")
 		(tags "Diode SMC (DO-214AB)")
 		(property "Reference" "D1"
-			(at 0 -4.1 0)
+			(at 0.41508 -4.29768 0)
 			(layer "F.SilkS")
-			(uuid "4d530a6d-63fe-40cd-bd5b-9ced60ad8996")
+			(uuid "fc1ece3f-17a9-44af-b973-141cb28d12b8")
 			(effects
 				(font
 					(size 1 1)
@@ -1086,10 +1086,10 @@
 				)
 			)
 		)
-		(property "Value" "Z3SMCxxx"
+		(property "Value" "Z3SMC62"
 			(at 0 4.2 0)
 			(layer "F.Fab")
-			(uuid "1dc40134-af9f-427b-a793-91bea5bcb4fc")
+			(uuid "5b619d50-f1d6-4544-9d83-ee7ba4c488f5")
 			(effects
 				(font
 					(size 1 1)
@@ -1102,7 +1102,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9222b234-b289-45dd-819a-a3f30ef49c63")
+			(uuid "75fa211b-f756-4b68-8df1-3bcf6e8170d6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1115,7 +1115,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "876f37d4-d92c-4d78-aee8-004f7425c042")
+			(uuid "2dea9e4f-9384-41f3-aeff-0b66a453d7c3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1351,7 +1351,7 @@
 		(property "Reference" "J1"
 			(at 1.5 -10.12 90)
 			(layer "F.SilkS")
-			(uuid "5fdc64e6-6152-4b2b-8f42-f5ebb23756d3")
+			(uuid "8c220541-5911-465b-80f5-27150a8b2f5c")
 			(effects
 				(font
 					(size 1 1)
@@ -1362,7 +1362,7 @@
 		(property "Value" "LED 0.170amps"
 			(at 1.5 3.22 90)
 			(layer "F.Fab")
-			(uuid "847f4a91-7b59-47f4-b52a-713dd7522194")
+			(uuid "1dff3790-21b1-4e53-857a-c61563b184d0")
 			(effects
 				(font
 					(size 1 1)
@@ -1374,7 +1374,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5d300ff3-22eb-459e-9d87-71ab97b59cf2")
+			(uuid "17684a1b-426f-44c1-a414-e19dbe20f1c5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1386,7 +1386,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a66dad83-7644-4c4f-955a-2a102dbfff8c")
+			(uuid "da17a6f6-3702-4516-b5d4-e0c037475cd6")
 			(effects
 				(font
 					(size 1.27 1.27)

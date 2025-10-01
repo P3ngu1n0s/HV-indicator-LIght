@@ -1001,7 +1001,7 @@
 				)
 			)
 		)
-		(property "Value" "Z3SMCxxx"
+		(property "Value" "Z3SMC62"
 			(at 119.38 95.25 0)
 			(effects
 				(font
@@ -1276,7 +1276,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "18000"
+		(property "Value" "36000"
 			(at 95.25 125.7299 0)
 			(effects
 				(font

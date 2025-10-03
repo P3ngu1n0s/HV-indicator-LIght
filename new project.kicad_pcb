@@ -264,9 +264,9 @@
 		(descr "Molex Micro-Fit 3.0 Connector System, 43650-0200 (compatible alternatives: 43650-0201, 43650-0202), 2 Pins per row (https://www.molex.com/pdm_docs/sd/436500300_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex Micro-Fit_3.0 horizontal")
 		(property "Reference" "J2"
-			(at -5.59422 0.34792 90)
+			(at -2.8942 2.64408 90)
 			(layer "F.SilkS")
-			(uuid "8a2d75d8-cf32-49c2-9648-69ac1eeb06c9")
+			(uuid "daded219-b167-4e22-9966-9cfe4ae541dc")
 			(effects
 				(font
 					(size 1 1)
@@ -275,9 +275,9 @@
 			)
 		)
 		(property "Value" "Tractive Battery"
-			(at 1.5 3.22 90)
-			(layer "F.Fab")
-			(uuid "ca83ff1a-c5fe-4700-808c-870d1a85e616")
+			(at -5.83044 -3.36302 180)
+			(layer "F.SilkS")
+			(uuid "9dda1dcf-bf71-41d3-8bec-9714a684e936")
 			(effects
 				(font
 					(size 1 1)
@@ -289,7 +289,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bf4c01b1-2256-4b96-ad6f-b46ef75180f2")
+			(uuid "0a736cb3-af30-454f-8093-5cddadbc30e2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -301,7 +301,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4a64c8b2-975c-429b-9087-1acf3662bc6f")
+			(uuid "fb31c3fc-2dbe-4d4d-81cf-c4b5744a98dc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1360,8 +1360,8 @@
 			)
 		)
 		(property "Value" "LED 0.170amps"
-			(at 1.5 3.22 90)
-			(layer "F.Fab")
+			(at 8.67296 -3.47 180)
+			(layer "F.SilkS")
 			(uuid "1dff3790-21b1-4e53-857a-c61563b184d0")
 			(effects
 				(font
@@ -1664,6 +1664,54 @@
 		(layer "Edge.Cuts")
 		(uuid "2e12d3dd-cac9-4b5d-8acc-1fc2f0417b12")
 	)
+	(gr_text "N(-)"
+		(at 133.58876 68.96608 0)
+		(layer "F.SilkS")
+		(uuid "90085971-8ae6-44e8-ba3a-4b6265caba65")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "P(+)"
+		(at 118.99646 68.14312 0)
+		(layer "F.SilkS")
+		(uuid "f3924ef4-b220-4230-83d1-fb14f185799c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Redo Layout later, aethstetic ig"
+		(at 119.33428 55.99684 0)
+		(layer "Edge.Cuts")
+		(uuid "ed8b76ee-608c-435f-ba39-b77c741856ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "github.com/P3ngu1n0s/HV-indicator-LIght"
+		(at 156.62402 69.04228 0)
+		(layer "F.Fab")
+		(uuid "916face9-289e-4980-ae31-6e05ef8b326a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 116.44128 72.40918)
 		(end 121.77236 72.40918)
@@ -1753,14 +1801,6 @@
 		(uuid "ccdf0345-5015-45a1-aac6-df7239480479")
 	)
 	(segment
-		(start 120.97004 80.5688)
-		(end 125.37198 80.5688)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 5)
-		(uuid "0c55aa44-357d-4125-afb9-9e05165ae54a")
-	)
-	(segment
 		(start 125.37198 80.5688)
 		(end 125.44218 80.639)
 		(width 0.5)
@@ -1769,44 +1809,36 @@
 		(uuid "7c8eb86b-d9a8-4953-92e1-8313a5761ee9")
 	)
 	(via
-		(at 120.97004 80.5688)
+		(at 125.44218 80.639)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 5)
-		(uuid "2beba8c1-c060-4c4c-97bd-49c9a0227f8a")
+		(uuid "72ca901a-93d5-4ff6-9a5a-a4925fed4228")
+	)
+	(segment
+		(start 134.95274 71.12844)
+		(end 125.44218 80.639)
+		(width 0.5)
+		(layer "B.Cu")
+		(net 5)
+		(uuid "87493203-a540-4a44-b21e-3649adfc7b5d")
 	)
 	(segment
 		(start 133.92404 62.95644)
-		(end 133.92404 65.33388)
+		(end 134.95274 63.98514)
 		(width 0.5)
 		(layer "B.Cu")
 		(net 5)
-		(uuid "5062924d-4d07-4cfc-af40-4db120d07003")
+		(uuid "d5428d35-4637-4213-b84f-84b4878706c1")
 	)
 	(segment
-		(start 133.95452 65.36436)
-		(end 133.95452 67.58432)
+		(start 134.95274 63.98514)
+		(end 134.95274 71.12844)
 		(width 0.5)
 		(layer "B.Cu")
 		(net 5)
-		(uuid "56e5a13f-ec53-40e9-88e5-4c2f7a49f7a4")
-	)
-	(segment
-		(start 133.95452 67.58432)
-		(end 120.97004 80.5688)
-		(width 0.5)
-		(layer "B.Cu")
-		(net 5)
-		(uuid "906e68c6-902a-4f21-8f95-0e305ca95c02")
-	)
-	(segment
-		(start 120.97004 80.5688)
-		(end 121.01068 80.5688)
-		(width 0.5)
-		(layer "B.Cu")
-		(net 5)
-		(uuid "a7f02ea9-cc61-4eb8-8c12-d96ef54834a2")
+		(uuid "f75e11f7-99f4-4677-8598-aaf330768acc")
 	)
 	(embedded_fonts no)
 )

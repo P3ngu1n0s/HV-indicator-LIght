@@ -1,11 +1,18 @@
-26636368699832425
-1_my_custom_library
-USB
+26651550433856239
+ATA-6561-N
+SOIC8_4P9X3P9MC_MCH
+
+ATA6561-GAQW-N 
+0
+8
+8
+ATA-6561-N
+Untitled
 
 
 0
-4
-4
+0
+0
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -62649,6 +62656,13 @@ heatsink
 0
 0
 0
+IXCP10M90S
+IXCP10M90S
+
+
+0
+3
+3
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
